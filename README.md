@@ -36,7 +36,7 @@ Pobieranie-INCI/1.0 (+https://github.com/magda13288/Sync-INCI)
 
 ## Stan projektu i dane dostępowe
 
-Projekt jest w trakcie przygotowania. Lokalny skrypt autoryzacji jest przygotowany; pobieranie składników i aktualizacja katalogu Base nie są jeszcze wdrożone.
+Lokalne skrypty autoryzacji, pobierania składników z Allegro i uzupełniania parametru `Składniki(INCI)` w katalogu Base są przygotowane. Zapis do Base poprzedza raport dopasowań po SKU i EAN. Narzędzie uzupełnia puste wartości, zachowuje pozostałe parametry i kopię danych sprzed zmiany oraz potwierdza zapis ponownym odczytem. Brakujące składy i sprzeczne dopasowania są pomijane i zgłaszane w raporcie. Dodawanie składników do opisów istniejących ofert ERLI pozostaje kolejnym etapem projektu.
 
 To publiczne repozytorium zawiera dokumentację aplikacji. Kod roboczy pozostaje na komputerze właściciela. Client Secret, tokeny Allegro i klucz API Base nie są publikowane. Lokalny skrypt autoryzacji zapisuje dane dostępowe przy użyciu Windows DPAPI, w postaci zaszyfrowanej dla konta Windows właściciela.
 
