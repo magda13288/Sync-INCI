@@ -1,0 +1,5 @@
+# Publiczne repozytorium zawiera tylko dokumentacje aplikacji.
+# Kod roboczy i wszystkie dane dostepowe pozostaja lokalnie.
+*
+!README.md
+!.gitignore
