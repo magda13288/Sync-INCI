@@ -18,7 +18,7 @@ Kolejność i treść składników mają być zachowywane zgodnie z danymi źró
 ## Dostęp do Allegro
 
 - Nazwa zarejestrowanej aplikacji: **Pobieranie INCI**.
-- Wersja: **1.0.0**.
+- Wersja: **1.0**.
 - Autoryzacja użytkownika: **OAuth 2.0 Device Flow**.
 - Wymagany zakres: `allegro:api:sale:offers:read` — odczyt danych o ofertach.
 - Aplikacja nie potrzebuje uprawnień do zmiany ofert Allegro ani dostępu do zamówień, płatności i wiadomości.
@@ -27,6 +27,12 @@ Kolejność i treść składników mają być zachowywane zgodnie z danymi źró
 Adres informacji o aplikacji do generatora User-Agent:
 
 https://github.com/magda13288/Sync-INCI
+
+Identyfikator User-Agent aplikacji:
+
+```text
+Pobieranie-INCI/1.0 (+https://github.com/magda13288/Sync-INCI)
+```
 
 ## Stan projektu i dane dostępowe
 
