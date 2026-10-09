@@ -3,3 +3,6 @@
 *
 !README.md
 !.gitignore
+!doc/
+!doc/README.md
+!doc/STRUKTURA.md
